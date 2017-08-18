@@ -34,3 +34,15 @@ html, body {
 #move-up {
     margin-top: -130%;
 }
+
+@media (max-width: 575px) {
+    #move-up {
+    margin-top: 0px;
+}
+}
+
+@media (max-width: 768px) {
+    #move-up {
+    margin-top: 0px;
+} 
+}
