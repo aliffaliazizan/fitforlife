@@ -1,0 +1,35 @@
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#cover {
+    background-color: #f4f4f4;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(http://runningmagazine.ca/wp-content/uploads/2015/03/generic-running-2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-bottom: 8%;
+}
+
+#navigation {
+    padding-top: 2%
+}
+
+#text-area {
+    padding-top: 10%;
+    color: #fff;
+}
+
+#text-area h1 {
+    font-weight: 500
+}
+
+#detail-section {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    background-color: #fc4c02;
+}
+
+#move-up {
+    margin-top: -130%;
+}
