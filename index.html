@@ -10,142 +10,98 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
+    
   </head>
+  
   <body>
-   
-    <section id="cover">
+    <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" width="200" height="auto" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </li>
+        </ul>        
+      </div>
+    </nav>
+    </div>
+     
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-lg-6 col-sm-12">
+           <h1 class="display-3">Get fit. <br>Live great!</h1>
+            <p class="lead">This is a template for a simple marketing or informational website. It includes a large callout called.</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a>
+        </div>
+      </div>
+    </div>
+
+    <section id="about-section">
         <div class="container">
-           <div id="navigation">
-               <nav class="navbar navbar-expand-lg navbar-dark">
-                  <a class="navbar-brand" href="#">
-                    <img src="img/logo.png" width="auto" height="90" alt="logo">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item active mr-3">
-                        <a class="nav-link" href="#">Registration is open! <span class="sr-only">(current)</span></a>
-                      </li>
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Register Now!</button>
-                    </ul>
-                  </div>
-                </nav>
-           </div>
-            <div id="text-area">
-                <div class="row">
-                    <div class="col-lg-5 pr-4">
-                        <h1 class="display-3">Get fit. <br>Live great!</h1>
-                        <h2 class="text-muted">Traditional heading elements are designed</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore quam repellendus, sunt aliquid incidunt explicabo est assumenda sint, suscipit voluptates officiis dolor!</p>
-                        <div class="mb-1"><i class="fa fa-calendar fa-lg fa-fw"></i> 01 November 2017</div>
-                        <div class="mb-1"><i class="fa fa-clock-o fa-lg fa-fw"></i> 07:00 AM - 12:30 PM</div>
-                        <div class="mb-1"><i class="fa fa-map-marker fa-lg fa-fw"></i> Menara Star, 15, Jalan 16/11,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Pusat Perdagangan Phileo Damansara,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 46350 Petaling Jaya, Selangor, Malaysia</div>
+            <div class="row mb-5">
+                <div class="col-lg-4 col-sm-12 mb-2">
+                    <h1 class="title">Fit for Life Fun Run 2017</h1>
+                    <p>Promoting Health, Fitness, Sports, Leisure, Beauty and Wellness!</p>
+                </div>
+                <div class="col-lg-4 col-sm-12 mb-4">
+                    <h5 class="title">What is the event all about?</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum corporis eius eum autem quae, maiores quasi enim ipsum ratione quidem maxime culpa, vitae saepe quod ipsam adipisci reprehenderit. <br><br>Enim, quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum corporis eius eum autem quae, maiores quasi enim ipsum ratione quidem maxime culpa, vitae saepe quod ipsam adipisci reprehenderit. Enim, quidem.</p>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Register Now!</button>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                      <h4 class="card-header title">Event Details</h4>
+                      <div class="card-body">
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.5769827771765!2d100.2787302146972!3d5.3284766373779835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304ac043384dbabb%3A0x86d8075b057f5762!2sSetia+SPICE+Arena!5e0!3m2!1sen!2smy!4v1504079991334" width="300" height="200" frameborder="0" style="border:0" allowfullscreen class="mb-3 rounded"></iframe>
+<!--                        <img src="http://via.placeholder.com/550x300" class="img-fluid mb-3 rounded">-->
+                        <h4 class="card-title">SPICE Arena, Pulau Pinang</h4>
+                        <p class="card-text mb-1"><i class="fa fa-calendar fa-lg fa-fw"></i> 01 November 2017</p>
+                        <p class="card-text"><i class="fa fa-clock-o fa-lg fa-fw"></i> 07:00 AM - 12:30 PM</p>
+                        <a href="#" class="btn btn-primary">View Run Route</a>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    
-    
-    <section id="detail-section">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-lg-6 col-sm-12 mb-3">
-                        <h1 style="color: #fff;">Event Details</h1>
-                        <p style="color: #fff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aliquid incidunt explicabo est assumenda sint, suscipit voluptates officiis dolor!</p>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 mb-2">
-                        <div id="move-up">
-                         <div class="card">
-                          <div class="card-body">
-                            <h4 class="card-title">Registration Form</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">Grab the chance to win!</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <form>
-                              <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                      <label for="inputEmail4" class="col-form-label">Email</label>
-                                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                      <label for="inputPassword4" class="col-form-label">Password</label>
-                                      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                                    </div>
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="inputAddress" class="col-form-label">Address</label>
-                                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="inputAddress2" class="col-form-label">Address 2</label>
-                                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                                  </div>
-                                  <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                      <label for="inputCity" class="col-form-label">City</label>
-                                      <input type="text" class="form-control" id="inputCity">
-                                    </div>
-                                    <div class="form-group col-md-4">
-                                      <label for="inputState" class="col-form-label">State</label>
-                                      <select id="inputState" class="form-control">Choose</select>
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                      <label for="inputZip" class="col-form-label">Zip</label>
-                                      <input type="text" class="form-control" id="inputZip">
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                      <label for="inputEmail4" class="col-form-label">Phone no</label>
-                                      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                      <label for="inputPassword4" class="col-form-label">Mobile no</label>
-                                      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                                    </div>
-                                  </div>
-                              
-                              <div class="form-group">
-                                <label for="exampleInputPassword1">Email</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ex@example.com">
-                              </div>
-                              
-                              <div class="form-row">
-                                    <div class="form-group col-md-6">
-                                      <label for="inputEmail4" class="col-form-label">Date og Birth</label>
-                                      <input type="date" class="form-control" id="inputEmail4" placeholder="Email">
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                      <label for="inputPassword4" class="col-form-label">Age</label>
-                                      <input type="" class="form-control" id="inputPassword4" placeholder="Password">
-                                    </div>
-                                  </div>
-                              <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
-                          </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row pt-2 footer-bottom">
-                       <div class="col-lg-12">
-                           <p style="color: #fff;">Copyright © 1995-2017 Star Media Group Berhad (ROC 10894D)</p>
-                       </div> 
-                    </div>
-            </div>
-    </section>
+    </section> <!-- /container -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery.slimscroll.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie-10-viewport-bug-workaround.js"></script>
   </body>
 </html>
