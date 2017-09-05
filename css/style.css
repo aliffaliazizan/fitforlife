@@ -84,11 +84,16 @@ span {
 
 @media (max-width: 575px) { 
     .jumbotron {
-    margin-bottom: 0;
-    padding-top: 40%;
-    padding-bottom: 25%;
+        margin-bottom: 0;
+        padding-top: 40%;
+        padding-bottom: 25%;
 }
-
+    
+    #days, #hours, #minutes, #seconds {
+        margin: 20px 0px;
+        font-size: 200%;
+        text-align: center;
+}
 
 }
 
@@ -96,9 +101,9 @@ span {
 
 @media (min-width: 576px) and (max-width: 767px) { 
     .jumbotron {
-    margin-bottom: 0;
-    padding-top: 25%;
-    padding-bottom: 25%;
+        margin-bottom: 0;
+        padding-top: 25%;
+        padding-bottom: 25%;
 }
 
 
@@ -108,9 +113,9 @@ span {
 
 @media (min-width: 768px) and (max-width: 991px) { 
     .jumbotron {
-    margin-bottom: 0;
-    padding-top: 20%;
-    padding-bottom: 20%;
+        margin-bottom: 0;
+        padding-top: 20%;
+        padding-bottom: 20%;
         
 }
 
@@ -118,13 +123,13 @@ span {
 
 @media (min-width: 1200px) { 
     .jumbotron {
-    margin-bottom: 0;
-    padding-top: 20%;
-    padding-bottom: 20%;
-        
-    background-attachment: fixed;
-    
-    background-repeat: no-repeat;
+        margin-bottom: 0;
+        padding-top: 15%;
+        padding-bottom: 15%;
+
+        background-attachment: fixed;
+
+        background-repeat: no-repeat;
 }
 
 
