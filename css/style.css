@@ -13,6 +13,9 @@ body {
     padding-bottom: 15%;
     color: #fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(2, 2, 2, 0.43)), url(img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
