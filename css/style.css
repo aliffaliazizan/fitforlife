@@ -8,6 +8,7 @@ body {
 
 .jumbotron {
     margin-top: -100px;
+    margin-bottom: 0;
     padding-top: 12%;
     padding-bottom: 10%;
     color: #fff;
@@ -24,4 +25,32 @@ body {
 
 .title {
     font-weight: 700;
+}
+
+#about-section {
+    padding: 3% 0 1% 0;    
+}
+
+/* COUNTDOWN */
+
+#countdown {
+    padding: 2% 0;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+#timer {
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 350%;
+    text-align: center;
+}
+
+span {
+  display: block;
+  font-size: 20px;
 }
