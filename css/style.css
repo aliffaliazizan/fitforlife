@@ -13,10 +13,8 @@ body {
     padding-bottom: 15%;
     color: #fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(2, 2, 2, 0.43)), url(img/bg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 /* TYPOGRAPHY */
@@ -37,10 +35,11 @@ body {
 /* COUNTDOWN */
 
 #countdown {
-    padding: 30px 0;
+    padding: 30px 35px;
     background-color: #007bff;
     color: #fff;
     text-align: center;
+    
 }
 
 #timer {
@@ -112,6 +111,21 @@ span {
     margin-bottom: 0;
     padding-top: 20%;
     padding-bottom: 20%;
+        
 }
+
+}
+
+@media (min-width: 1200px) { 
+    .jumbotron {
+    margin-bottom: 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
+        
+    background-attachment: fixed;
+    
+    background-repeat: no-repeat;
+}
+
 
 }
