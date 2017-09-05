@@ -87,3 +87,12 @@ span {
 
 
 }
+
+@media (max-width: 991px) { 
+    .jumbotron {
+    margin-bottom: 0;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+}
