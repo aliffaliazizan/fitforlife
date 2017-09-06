@@ -26,7 +26,7 @@ body {
 }
 
 #about-section {
-    padding: 40px 0 0 0;    
+    padding: 70px 0 0 0;    
 }
 
 /* COUNTDOWN */
@@ -52,6 +52,37 @@ body {
 span {
     display: block;
     font-size: 20px;
+}
+
+/* Divider */
+
+#divider {
+    background-color: #c3c3c3; 
+    padding-top: 100px;
+    padding-bottom: 110px;
+    color: #fff;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(2, 2, 2, 0.43)), url(img/top-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Divider */
+
+#route-map {
+    padding: 70px 90px;
+}
+
+.location {
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #cbcbcb;
+    
+    padding-left: 15px;
+    height: 50px;
+    line-height: 45px;
+    
+    border-radius: 6px;
 }
 
 /* CTA Register */
