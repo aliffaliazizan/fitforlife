@@ -14,6 +14,17 @@ body {
     background-position: center;
 }
 
+.jumbotron-register {
+    margin-top: -100px;
+    margin-bottom: 0;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(2, 2, 2, 0.43)), url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 /* TYPOGRAPHY */
 
 .jumbotron h1 {
@@ -97,6 +108,15 @@ span {
     background-size: cover;
 }
 
+/* Registration Form */
+
+#registration-form {
+    padding: 30px 30px;
+}
+
+#move-up {
+    margin-top: -20%;
+}
 /* FOOTER */
 
 #footer-section {
