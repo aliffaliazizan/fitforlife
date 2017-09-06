@@ -2,9 +2,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.bg-transparent {
-    background-color: transparent;
-}
 
 .jumbotron {
     margin-top: -100px;
@@ -102,7 +99,7 @@ span {
 @media (min-width: 576px) and (max-width: 767px) { 
     .jumbotron {
         margin-bottom: 0;
-        padding-top: 25%;
+        padding-top: 40%;
         padding-bottom: 25%;
 }
 
@@ -121,10 +118,22 @@ span {
 
 }
 
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .jumbotron {
+        margin-bottom: 0;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        
+}
+
+}
+
+
 @media (min-width: 1200px) { 
     .jumbotron {
         margin-bottom: 0;
-        padding-top: 15%;
+        padding-top: 18%;
         padding-bottom: 15%;
 
         background-attachment: fixed;
