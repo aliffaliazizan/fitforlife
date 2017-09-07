@@ -6,10 +6,9 @@ body {
 .jumbotron {
     margin-top: -100px;
     margin-bottom: 0;
-    padding-top: 15%;
-    padding-bottom: 15%;
+
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(2, 2, 2, 0.43)), url(img/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(2, 2, 2, 0.43)), url(img/bg-4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -17,10 +16,9 @@ body {
 .jumbotron-register {
     margin-top: -100px;
     margin-bottom: 0;
-    padding-top: 10%;
-    padding-bottom: 15%;
+    
     color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(2, 2, 2, 0.43)), url(img/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.79), rgba(2, 2, 2, 0.43)), url(img/bg-4.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -73,9 +71,11 @@ span {
     padding-bottom: 110px;
     color: #fff;
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(2, 2, 2, 0.43)), url(img/top-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(2, 2, 2, 0.43)), url(img/top-bg-2.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center;   
+    background-attachment: fixed;
+
 }
 
 /* Divider */
@@ -104,8 +104,9 @@ span {
     color: #fff;
     text-align: center;
     
-    background-image: linear-gradient(rgba(0, 123, 255, 0.9), rgba(0, 123, 255, 0.9)), url(img/bg.jpg);
+    background-image: linear-gradient(rgba(0, 123, 255, 0.9), rgba(0, 123, 255, 0.9)), url(img/bg-register.jpg);
     background-size: cover;
+    background-position: center
 }
 
 /* Registration Form */
@@ -142,6 +143,16 @@ span {
         font-size: 200%;
         text-align: center;
 }
+    
+    .jumbotron-register {
+        padding-top: 35%;
+        padding-bottom: 15%;
+        height: 500px;
+    }
+    
+    #move-up {
+    margin-top: -40%;
+}
 
 }
 
@@ -153,6 +164,11 @@ span {
         padding-top: 40%;
         padding-bottom: 25%;
 }
+    
+    .jumbotron-register {
+        padding-top: 25%;
+        padding-bottom: 15%;
+    }
 
 
 }
@@ -166,6 +182,11 @@ span {
         padding-bottom: 20%;
         
 }
+    
+    .jumbotron-register {
+        padding-top: 25%;
+        padding-bottom: 20%;
+    }
 
 }
 
@@ -177,6 +198,11 @@ span {
         padding-bottom: 20%;
         
 }
+    
+    .jumbotron-register {
+        padding-top: 20%;
+        padding-bottom: 15%;
+    }
 
 }
 
@@ -192,5 +218,9 @@ span {
         background-repeat: no-repeat;
 }
 
+    .jumbotron-register {
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
 
 }
