@@ -74,7 +74,6 @@ span {
     background-image: linear-gradient(rgba(0, 0, 0, 0.47), rgba(2, 2, 2, 0.43)), url(img/top-bg-2.jpg);
     background-size: cover;
     background-position: center;   
-    background-attachment: fixed;
 
 }
 
@@ -221,6 +220,10 @@ span {
     .jumbotron-register {
         padding-top: 15%;
         padding-bottom: 15%;
+    }
+    
+    .diver {
+        background-attachment: fixed;
     }
 
 }
